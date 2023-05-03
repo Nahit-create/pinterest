@@ -1,0 +1,30 @@
+@import '../../index.scss';
+.loader {
+  text-align: center;
+  padding: 32px;
+  .MuiSvgIcon-root {
+    color: $gray-200;
+    font-size: 52px;
+    animation: rotate 1s infinite linear;
+    margin-top: 32px;
+  }
+
+  a {
+    display: inline-block;
+    color: white;
+    background-color: $black-500;
+    padding: 12px 42px;
+    text-decoration: none;
+    margin-top: 32px;
+    border-radius: 12px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

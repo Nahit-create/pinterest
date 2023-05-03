@@ -1,0 +1,30 @@
+.home {
+  padding-top: 18px;
+
+  @media screen and (min-width: 760px) {
+    padding-top: 0px;
+  }
+
+  .pins__grid {
+    padding: 0 12px;
+    column-count: 2;
+    column-fill: red;
+
+    @media screen and (min-width: 730px) {
+      column-count: 3;
+    }
+    @media screen and (min-width: 995px) {
+      columns: 4;
+      padding-top: 0px;
+    }
+    @media screen and (min-width: 1200px) {
+      columns: 5;
+    }
+    @media screen and (min-width: 1500px) {
+      columns: 6;
+    }
+    @media screen and (min-width: 1900px) {
+      columns: 7;
+    }
+  }
+}
